@@ -1,0 +1,68 @@
+body{
+  background-image: url("C:\Users\Korisnik\Downloads\kopija1sl.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(36, 70, 41);
+  font-size: xx-large;
+  font: bold;
+}
+.nav_bar {
+  height: 100px;
+  font-size: xx-large;
+}
+.Middle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 650px;
+}
+
+.Footer {
+  background-color:rgb(29, 26, 26);
+  flex-direction: row;
+  color: white; 
+  margin-top: 40px;
+}
+
+.OkvirSlike {
+  width: 1000px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.gornji {
+  flex: 5;
+  display: flex;
+  justify-content: space-evenly;
+}
+.donji {
+  flex: 1;  
+  display: flex;
+  justify-content: row;
+}
+
+/* Style the file input and submit button */
+input[type=file], input[type=submit] {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer; /* Re-style the cursor to indicate a clickable area */
+  font-size: 16px;
+}
+
+input[type=submit] {
+  background-color: #5cb85c; /* A green background for the submit button */
+  color: white;
+}
+
+/* Add some padding and a max-width to your images */
+img {
+  max-width: 80%; /* Limit the size of the image */
+  border: 1px solid #ddd; /* Add a border around your images */
+  border-radius: 5px;
+  padding: 5px;
+}
