@@ -1,5 +1,5 @@
-body{
-  background-image: url("C:\Users\Korisnik\Downloads\kopija1sl.png");
+body {
+  background-image: url("/home/slavkososic/Desktop/Practices/Potato-object-detection/frontend/public/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: rgb(36, 70, 41);
@@ -20,9 +20,9 @@ body{
 }
 
 .Footer {
-  background-color:rgb(29, 26, 26);
+  background-color: rgb(29, 26, 26);
   flex-direction: row;
-  color: white; 
+  color: white;
   margin-top: 40px;
 }
 
@@ -39,13 +39,14 @@ body{
   justify-content: space-evenly;
 }
 .donji {
-  flex: 1;  
+  flex: 1;
   display: flex;
   justify-content: row;
 }
 
 /* Style the file input and submit button */
-input[type=file], input[type=submit] {
+input[type="file"],
+input[type="submit"] {
   border: 1px solid #ddd;
   padding: 10px 20px;
   border-radius: 5px;
@@ -54,7 +55,7 @@ input[type=file], input[type=submit] {
   font-size: 16px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #5cb85c; /* A green background for the submit button */
   color: white;
 }

@@ -2,6 +2,7 @@
 #pip install ultralytics
 #pip install Pillow
 #pip freeze > requirements.txt
+#pip install flask_cors
 
 from flask import Flask, render_template, request, url_for, redirect, send_from_directory
 from werkzeug.utils import secure_filename
@@ -15,7 +16,7 @@ CORS(app, supports_credentials=True)
 
 UPLOAD_FOLDER = 'static/uploadovane_slike'
 ALLOWED_EXTENSIONS={'png', 'jpg', 'jpeg', 'gif'}
-MODEL_PATH = "C:/Users/Korisnik/Desktop/IT/Kurs python ML/Projekat/Analiza mog dataseta/verzija 2/best_v2.pt"
+MODEL_PATH = "best.pt"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 model=YOLO(MODEL_PATH)
